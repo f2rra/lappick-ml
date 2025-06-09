@@ -31,7 +31,6 @@ tf_game_description_embeddings = None
 laptop_list_for_nlp = []
 laptop_brand_list_for_nlp = []
 
-
 try:
     model_path = os.path.join(SAVE_DIRECTORY, '') 
     tf_embedding_model = tf.saved_model.load(model_path)
@@ -220,7 +219,7 @@ def remove_stopwords(tokens):
 
 def basic_preprocessing(text):
     text = text.lower()
-    text = re.sub(r'[’‘]', "'", text)  # Normalisasi apostrof
+    text = re.sub(r'[’‘]', "'", text)  
     text = re.sub(f"[{string.punctuation}]", " ", text)
     tokens = tokenizer.tokenize(text)
     return tokens
@@ -512,8 +511,6 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
     if detected_intent == "COMPARE_LAPTOPS":
         if len(found_laptops_entities) < 2:
              return pd.DataFrame({"Status": ["Informasi Kurang"], "Pesan": ["Mohon sebutkan minimal dua nama laptop atau brand untuk dibandingkan."]})
-
-        print("\nIntent: Compare Laptops. Implementasi perbandingan spesifikasi laptop...")
         comparison_laptops = laptop_df[
             laptop_df['Model'].str.lower().isin([ent.lower() for ent in found_laptops_entities if ent in laptop_df['Model'].tolist()]) |
             laptop_df['Brand'].str.lower().isin([ent.lower() for ent in found_laptops_entities if ent in laptop_df['Brand'].unique().tolist()])
@@ -529,7 +526,6 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
 
          laptops_to_evaluate = laptop_df.copy()
 
-         # Filter Budget
          if extracted_budget is not None and extracted_budget > 0:
              laptops_to_evaluate = laptops_to_evaluate[laptops_to_evaluate['Final Price'] <= extracted_budget].copy()
 
@@ -560,7 +556,6 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
          return laptops_to_evaluate[['Brand', 'Model', 'CPU', 'GPU', 'RAM', 'Storage', 'Storage type', 'Final Price']]
 
     elif detected_intent == "FIND_MOST_EXPENSIVE_LAPTOP":
-        print("\nIntent: Find Most Expensive Laptop. Mencari laptop termahal...")
         laptops_to_evaluate = laptop_df.copy()
 
         if found_laptops_entities:
@@ -583,7 +578,6 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
                  return pd.DataFrame({"Status": ["Tidak Ditemukan"], "Pesan": [f"Tidak ada laptop yang cocok dengan entitas '{', '.join(found_laptops_entities)}'."]})
 
         if found_games:
-            print(f"  - Game terdeteksi: {found_games}. Akan mencari laptop termahal yang memenuhi min. req.")
             target_game_min_req = None
             max_requirement_score = -1
             target_game_name = None
@@ -623,17 +617,14 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
 
                  if laptops_to_evaluate.empty:
                      return pd.DataFrame({"Status": ["Tidak Ditemukan"], "Pesan": [f"Tidak ada laptop yang memenuhi persyaratan minimum untuk '{target_game_name}' dalam kriteria Anda."]})
-
             else:
                 print("Tidak dapat menemukan persyaratan minimum untuk game yang terdeteksi.")
-
 
         if laptops_to_evaluate.empty:
              return pd.DataFrame({"Status": ["Tidak Ditemukan"], "Pesan": ["Tidak ada laptop yang ditemukan berdasarkan kriteria Anda."]})
 
         most_expensive_laptops = laptops_to_evaluate.sort_values(by='Final Price', ascending=False).reset_index(drop=True)
         return most_expensive_laptops[['Brand', 'Model', 'CPU', 'GPU', 'RAM', 'Storage', 'Storage type', 'Final Price']]
-
 
     elif detected_intent in ["FIND_BEST_LAPTOP_FOR_GAME", "FIND_CHEAPEST_LAPTOP_FOR_GAME", "FIND_LAPTOP_FOR_GAME"]:
         game_targets = []
@@ -815,7 +806,6 @@ def recommend():
              return jsonify(response_data), status_code
         else:
             return jsonify(result_df.to_dict(orient='records')), 200
-
 
     except Exception as e:
         print(f"Error during recommendation process: {e}")
