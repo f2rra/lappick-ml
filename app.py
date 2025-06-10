@@ -759,7 +759,7 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
         return pd.DataFrame({"Status": ["Intent Tidak Dikenali"], "Pesan": ["Mohon maaf, niat Anda belum dapat saya proses saat ini."]})
 
 app = Flask(__name__)
-
+ 
 @app.route('/')
 def home():
     return "Laptop Recommendation API is running!"
