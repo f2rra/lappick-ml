@@ -1,0 +1,11 @@
+tensorflow
+tensorflow-hub
+tensorflow-text
+flask
+Sastrawi
+nltk
+fuzzywuzzy
+python-Levenshtein
+scikit-learn
+pandas
+numpy==1.24.4
