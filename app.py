@@ -5,6 +5,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import tensorflow_text as text 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import re
 import string
 from collections import defaultdict
@@ -759,6 +760,7 @@ def get_laptop_recommendations_with_intent(user_query, laptop_df, min_req_df, re
         return pd.DataFrame({"Status": ["Intent Tidak Dikenali"], "Pesan": ["Mohon maaf, niat Anda belum dapat saya proses saat ini."]})
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def home():
@@ -798,9 +800,11 @@ def recommend():
         )
 
         if 'Status' in result_df.columns:
-             response_data = result_df.to_dict(orient='records')
-             status_code = 404 if response_data and response_data[0].get('Status') in ['Tidak Ditemukan', 'Intent Tidak Dikenali', 'Informasi Kurang'] else 200
-             return jsonify(response_data), status_code
+            response_data = result_df.to_dict(orient='records')
+            if response_data and response_data[0].get('Status') in ['Tidak Ditemukan', 'Intent Tidak Dikenali', 'Informasi Kurang']:
+                return jsonify(response_data), 200
+            else:
+                return jsonify(response_data), 200
         else:
             return jsonify(result_df.to_dict(orient='records')), 200
 
