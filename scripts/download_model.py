@@ -1,4 +1,4 @@
-from huggingface_hub import hf_hub_download
+from huggingface_hub import snapshot_download
 import os
 
 # Define the directory to save the model
@@ -9,10 +9,9 @@ MODEL_DIR = os.path.join(SCRIPT_DIR, "..", "models")
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # Download the model file from Hugging Face Hub
-model_path = hf_hub_download(
+model_path = snapshot_download(
     repo_id="f2rra/universal-sentence-encoder",
-    filename="variables.data-00000-of-00001",
-    repo_type="model",
-    local_dir=MODEL_DIR
+    local_dir=MODEL_DIR,
+    repo_type="model"
 )
 print(f"Model downloaded to: {model_path}")
