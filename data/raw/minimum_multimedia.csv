@@ -1,0 +1,63 @@
+,App,Category,CPU,GPU,RAM,Description
+0,Adobe Premiere Pro,Video,Intel Core i5-6500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 Ti / AMD RX 560,8GB,"Professional timeline-based video editing software for film, TV, and web."
+1,Adobe Photoshop,Design,Intel Core i3-6100 / AMD Ryzen 3 1200,NVIDIA GT 1030 / AMD RX 550,8GB,Industry-standard raster graphics editor for photo editing and digital art.
+2,DaVinci Resolve,Video,Intel Core i5-7400 / AMD Ryzen 5 1400,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Professional color correction and non-linear video editing software.
+3,Blender,3D,Intel Core i5-6500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 / AMD RX 560,8GB,"Free and open-source 3D creation suite for modeling, animation, and rendering."
+4,Autodesk Maya,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,"Professional 3D computer graphics software for animation, modeling, and rendering."
+5,CorelDRAW,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,"Vector graphics editor for illustration, layout, and design."
+6,VEGAS Pro,Video,Intel Core i5-7300HQ / AMD Ryzen 5 2500U,AMD Radeon Vega 8 Mobile,8GB,Professional video editing software for creative production and live streaming.
+7,Affinity Photo,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Professional raster graphics editor for photo editing and design.
+8,Final Cut Pro,Video,Apple M1 / Intel Core i5-7500,Apple M1 GPU / Intel UHD 630,8GB,Professional non-linear video editing software for macOS.
+9,Lightroom Classic,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,8GB,Photo editing and organization software for professional photographers.
+10,Cinema 4D,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 560,8GB,"3D modeling, animation, and rendering software for motion graphics."
+11,Avid Media Composer,Video,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 560,8GB,Industry-standard video editing software for film and television production.
+12,HitFilm Express,Video,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Video editing and visual effects software with compositing tools.
+13,Capture One,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,8GB,Professional photo editing software with RAW processing capabilities.
+14,Krita,Design,Intel Pentium Gold G5400 / AMD Athlon 3000G,Intel UHD 610 / AMD Radeon R3,4GB,Free and open-source digital painting software for artists.
+15,SketchUp,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,3D modeling software for architectural and interior design.
+16,PaintTool SAI,Design,Intel Pentium Gold G5400 / AMD Athlon 3000G,Intel UHD 610 / AMD Radeon R3,4GB,Lightweight painting software for digital artists and illustrators.
+17,Adobe Illustrator,Design,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GT 1030 / AMD RX 550,8GB,Industry-standard vector graphics editor for design and illustration.
+18,ZBrush,3D,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 / AMD RX 560,8GB,Digital sculpting and painting software for high-resolution 3D models.
+19,OpenToonz,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,2D animation software for traditional and digital animation production.
+20,Adobe After Effects,Video,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 Ti / AMD RX 570,12GB,Motion graphics and visual effects software for film and video.
+21,Adobe Lightroom,Design,Intel Core i5-6500 / AMD Ryzen 5 1400,NVIDIA GT 1030 / AMD RX 550,8GB,Cloud-based photo editing and organization service.
+22,Adobe InDesign,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,8GB,Desktop publishing software for layout design and typesetting.
+23,Adobe XD,UI/UX,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,User experience design tool for websites and mobile apps.
+24,Adobe Animate,Animation,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,8GB,Multimedia authoring software for animation and interactive content.
+25,Adobe Dreamweaver,Web,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Web development tool for designing and publishing websites.
+26,Adobe Substance 3D Painter,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,3D texturing software for physically-based rendering materials.
+27,Adobe Substance 3D Designer,3D,Intel Core i5-7600 / AMD Ryzen 5 2600,NVIDIA GTX 1050 Ti / AMD RX 570,16GB,Material authoring tool for procedural texture creation.
+28,Adobe Substance 3D Sampler,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Material creation tool using AI-assisted image conversion.
+29,Affinity Designer,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Vector graphics editor for professional illustration and design.
+30,Affinity Publisher,Design,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Professional publishing software for layout and typography.
+31,Lightworks,Video,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 / AMD RX 560,4GB,Professional non-linear editing system for video production.
+32,Clip Studio Paint,Design,Intel Pentium Gold G5400 / AMD Athlon 3000G,Intel UHD 610 / AMD Radeon R3,4GB,"Digital art software for comics, manga, and illustration."
+33,GIMP,Design,Intel Core i3-6100 / AMD Ryzen 3 1200,Intel HD 530 / AMD Radeon R5,4GB,Free and open-source image manipulation program.
+34,Inkscape,Design,Intel Core i3-6100 / AMD Ryzen 3 1200,Intel HD 530 / AMD Radeon R5,4GB,Free and open-source vector graphics editor.
+35,Figma,UI/UX,Intel Core i3-7100 / AMD Ryzen 3 1200,Intel UHD 630 / AMD Radeon Vega 3,4GB,Collaborative interface design tool for web and mobile applications.
+36,Procreate,Design,Apple A12 Bionic chip (iPad),Apple GPU (iPad),4GB,Digital painting app designed for artists on iPadOS.
+37,3ds Max,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,3D modeling and rendering software for design visualization and games.
+38,Houdini,3D,Intel Core i5-8500 / AMD Ryzen 5 2600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,3D animation software for visual effects and procedural generation.
+39,Unity,Game Dev,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GTX 1050 Ti / AMD RX 560,8GB,Game development engine for creating 2D and 3D interactive content.
+40,Unreal Engine,Game Dev,Intel Core i5-8500 / AMD Ryzen 5 2600,NVIDIA GTX 1060 3GB / AMD RX 580,8GB,Real-time 3D creation tool for photoreal visuals and immersive experiences.
+41,Toon Boom Harmony,Animation,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Industry-standard 2D animation software for production pipelines.
+42,Marvelous Designer,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,3D clothing design software for virtual fashion and characters.
+43,KeyShot,Rendering,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Real-time ray tracing and global illumination rendering software.
+44,Nuke,VFX,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 3GB / AMD RX 580,16GB,Node-based compositing software for visual effects and film production.
+45,Arnold Renderer,Rendering,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 3GB / AMD RX 580,16GB,Advanced ray-tracing renderer for feature-length animation and VFX.
+46,Redshift,Rendering,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 6GB / AMD RX 580,16GB,GPU-accelerated renderer for high-end production rendering.
+47,Audacity,Audio,Intel Core i3-6100 / AMD Ryzen 3 1200,Intel HD 530 / AMD Radeon R5,4GB,"Free, open-source digital audio editor and recording software."
+48,OBS Studio,Broadcast,Intel Core i5-6500 / AMD Ryzen 5 1400,AMD Radeon Vega 8 / Intel UHD 630,8GB,Free and open-source software for video recording and live streaming.
+49,REAPER,Audio,Intel Core i5-6500 / AMD Ryzen 5 1400,Intel UHD 630 / AMD Radeon Vega 3,4GB,Digital audio workstation with full multitrack audio and MIDI recording.
+50,Resolume Arena,Live Visuals,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,4GB,Real-time video mixing software for VJing and live performances.
+51,TouchDesigner,Live Visuals,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1060 3GB / AMD RX 580,8GB,Visual development platform for realtime interactive projects.
+52,Ableton Live,Audio,Intel Core i5-6500 / AMD Ryzen 5 1400,Intel UHD 630 / AMD Radeon Vega 3,4GB,Digital audio workstation for music production and live performance.
+53,Pro Tools,Audio,Intel Core i5-7500 / AMD Ryzen 5 2600,NVIDIA GT 1030 / AMD RX 550,8GB,Industry-standard digital audio workstation for music and post-production.
+54,FL Studio,Audio,Intel Core i3-6100 / AMD Ryzen 3 1200,Intel HD 530 / AMD Radeon R5,4GB,Digital audio workstation for music production and beat making.
+55,Max/MSP,Audio,Intel Core i5-6500 / AMD Ryzen 5 1400,Intel UHD 630 / AMD Radeon Vega 3,4GB,Visual programming language for music and multimedia applications.
+56,V-Ray,Rendering,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 6GB / AMD RX 580,16GB,Rendering engine for photorealistic visualization and animation.
+57,Octane Render,Rendering,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 6GB / AMD RX 580,16GB,GPU-accelerated rendering application for real-time ray tracing.
+58,Quixel Mixer,3D,Intel Core i5-7500 / AMD Ryzen 5 1600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Texture creation software for photorealistic material blending.
+59,Mari,3D,Intel Core i7-7700 / AMD Ryzen 5 2600,NVIDIA GTX 1060 6GB / AMD RX 580,16GB,3D texture painting software for complex assets and look development.
+60,Blackmagic Fusion,VFX,Intel Core i5-8500 / AMD Ryzen 5 2600,NVIDIA GTX 1050 Ti / AMD RX 570,8GB,Visual effects software for compositing and motion graphics.
+61,Adobe Audition,Audio,Intel Core i5-7500 / AMD Ryzen 5 1400,NVIDIA GT 1030 / AMD RX 550,4GB,"Digital audio workstation for radio, video, and podcast production."
